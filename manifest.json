@@ -1,23 +1,19 @@
 {
-    "name" : "color picker",
-    "description" : "A color picker extension",
+    "manifest_version": 3,
+    "name": "Tab Title Extension",
     "version": "1.0",
-    "manifest_version" : 3,
-    "background" : {
-        "service-worker" : "background.js"
-    },
-    "permissions" : [
-        "activeTab",
-        "scripting",
-        "storage"
+    "description": "Fetches the current tab title",
+    "permissions": [
+      "activeTab"
     ],
-    "action" : {
-        "default_popup" : "popup.html"
-    },
-    "icons" : {
-        "16" : "./color-picker.png",
-        "32" : "./color-picker.png",
-        "48" : "./color-picker.png"
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/letter-p.png",
+        "48": "images/letter-p.png",
+        "128": "images/letter-p.png"
+      }
     }
-}
+  }
 
+  
